@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felix Grosch | Fotograf</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="logo">Felix Grosch</div>
+            <ul class="nav-links">
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <h1>Willkommen auf meiner Portfolioseite</h1>
+            <p>Ich bin Felix Grosch – Fotograf aus Leidenschaft</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Über mich</h2>
+            <p>Ich fotografiere seit über 10 Jahren. Meine Spezialitäten sind Portraits, Landschaften und Eventfotografie. 
+            Hier möchte ich dir einen Einblick in meine Arbeit geben.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="https://via.placeholder.com/400x300?text=Bild+1" alt="Beispielbild 1" /></div>
+                <div class="gallery-item"><img src="https://via.placeholder.com/400x300?text=Bild+2" alt="Beispielbild 2" /></div>
+                <div class="gallery-item"><img src="https://via.placeholder.com/400x300?text=Bild+3" alt="Beispielbild 3" /></div>
+                <div class="gallery-item"><img src="https://via.placeholder.com/400x300?text=Bild+4" alt="Beispielbild 4" /></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Kontakt</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Absenden</button>
+            </form>
+            <p id="form-response" class="response"></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Felix Grosch. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
